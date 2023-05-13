@@ -1,0 +1,24 @@
+.content {
+    padding-top: 56px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .content {
+      padding-top: 48px;
+      max-width: 928px;
+    }
+  }
+  @media (max-width: 768px) {
+    .content {
+      padding-top: 48px;
+      max-width: 768px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .content {
+      padding-top: 48px;
+      max-width: 320px;
+    }
+  }
