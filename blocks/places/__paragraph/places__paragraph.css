@@ -11,6 +11,9 @@
 }
 
 @media (max-width: 1024px) {
+  .places__paragraph {
+    max-width: 928px;
+  }
   .places__paragraph:first-child {
     margin-bottom: 27px;
   }
@@ -18,6 +21,7 @@
 
 @media (max-width: 768px) {
     .places__paragraph {
+      max-width: 720px;
       font-size: 16px;
     }
     .places__paragraph:first-child {
@@ -26,8 +30,8 @@
   }
 
   @media (max-width: 320px) {
-    .places__paragraph:first-child {
-      margin-bottom: 25px;
+    .places__paragraph {
+      max-width: 288px;
     }
     .places__paragraph:last-child {
       margin-bottom: 0;

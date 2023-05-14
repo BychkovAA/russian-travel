@@ -4,8 +4,9 @@
     line-height: 22px; /* or 122% */
     text-align: center;
     color: #FFFFFF;
-    margin: 32px auto;
+    margin: 32px 0 0;
     z-index: 2;
+    padding: 0;
 }
 
 @media (max-width: 320px) {
