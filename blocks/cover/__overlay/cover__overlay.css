@@ -13,6 +13,24 @@
     flex-direction: column;
 }
 
+@media (max-width:1024px) {
+    .cover__overlay {
+        min-height: 640px;
+    }
+}
+
+@media (max-width:768px) {
+    .cover__overlay {
+        min-height: 480px;
+    }
+}
+
+@media (max-width:320px) {
+    .cover__overlay {
+        min-height: 200px;
+    }
+}
+
 .cover__overlay:before {
     background-color: rgba(42, 44, 47, .3);
     transition: background-color .3s;
@@ -27,22 +45,4 @@
 .cover__overlay:hover:before {
     background-color: rgba(42, 44, 47, .8);
     cursor: url(../../../images/Pointer.png),pointer;
-}
-
-@media (max-width: 1280px) {
-    .cover__overlay {
-      min-height: 640px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .cover__overlay {
-      min-height: 480px;
-    }
-}
-
-@media (max-width: 320px) {
-    .cover__overlay {
-      min-height: 200px;
-    }
 }

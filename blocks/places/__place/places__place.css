@@ -7,6 +7,9 @@
     gap: 48px 40px;
     margin: 0 auto 80px;
 }
+.places__place:last-child {
+    margin-bottom: 0;
+}
 
 @media screen and (max-width: 1024px) {
     .places__place {

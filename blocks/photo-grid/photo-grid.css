@@ -3,3 +3,15 @@
     box-sizing: border-box;
     margin: 0 auto;
 }
+
+@media (max-width:768px) {
+    .photo-grid {
+        max-width: 720px;
+    }
+}
+
+@media (max-width:320px) {
+    .photo-grid {
+        max-width: 288px;
+    }
+}

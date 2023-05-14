@@ -3,3 +3,8 @@
     color: white;
     text-decoration: none;
 }
+
+.header__lang-link:hover {
+    opacity: .8;
+    cursor: url(../../images/Pointer.png),pointer;
+}

@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  padding-top: 26px;
+  padding-top: 28px;
   padding-bottom: 56px;
   }
 
@@ -18,7 +18,7 @@
   }
   @media (max-width: 768px) {
     .header {
-      max-width: 768px;
+      max-width: 720px;
     }
   }
 
@@ -26,7 +26,7 @@
     .header {
       padding-top: 16px;
       min-height: 42px;
-      max-width: 320px;
+      max-width: 288px;
     }
   }
 
