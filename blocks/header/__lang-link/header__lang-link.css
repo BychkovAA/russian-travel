@@ -1,12 +1,5 @@
 .header__lang-link {
-    padding-left: 18px;
     box-sizing: border-box;
     color: white;
     text-decoration: none;
 }
-
-@media (max-width: 320px) {
-    .header__lang {
-        padding-left: 8px;
-    }
-  }

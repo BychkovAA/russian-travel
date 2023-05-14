@@ -1,0 +1,32 @@
+.places__paragraph  {
+    box-sizing: border-box;   
+    font-size: 18px;
+    line-height: 163%; /* or 29px */
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.places__paragraph:first-child {
+  margin-bottom: 26px;
+}
+
+@media (max-width: 1024px) {
+  .places__paragraph:first-child {
+    margin-bottom: 27px;
+  }
+}
+
+@media (max-width: 768px) {
+    .places__paragraph {
+      font-size: 16px;
+    }
+    .places__paragraph:first-child {
+      margin-bottom: 25px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .places__paragraph:first-child {
+      margin-bottom: 25px;
+    }
+  }

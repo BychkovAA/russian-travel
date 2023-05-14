@@ -1,5 +1,5 @@
 .header {
-  height: 52px;
+  min-height: 52px;
   max-width: 1184px;
   margin: 0 auto;
   display: flex;
@@ -18,7 +18,6 @@
   }
   @media (max-width: 768px) {
     .header {
-      padding-bottom: 48px;
       max-width: 768px;
     }
   }
@@ -26,8 +25,7 @@
   @media (max-width: 320px) {
     .header {
       padding-top: 16px;
-      padding-bottom: 48px;
-      height: 42px;
+      min-height: 42px;
       max-width: 320px;
     }
   }
