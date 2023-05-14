@@ -18,6 +18,15 @@
     }
 }
 
+@media (max-width: 448px) {
+    .cover {
+        min-height: 410px;
+        font-size: 50px;
+        line-height: 44px; 
+    }
+  }
+
+
 @media (max-width:320px) {
     .cover {
         min-height: 200px;

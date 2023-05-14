@@ -14,7 +14,7 @@
         margin: 0 auto 16px;
         max-width: 600px;
         font-size: 50px;
-        line-height: 44px;
+        line-height: 44px; /* or 110% */
     }
   }
 
@@ -23,6 +23,5 @@
         margin: 0 auto 16px;
         max-width: 288px;
         font-size: 40px;
-        line-height: 44px; /* or 110% */
     }
   }
